@@ -62,6 +62,25 @@ main{
     width: 100%;
 }
 
+.image{
+    position: relative;
+    width: 100%;
+}
+
+.image .image-hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+}
+
+.image:hover img.image-hover{
+    opacity: 1;
+}
+
 .heart *{
     color: black;
     position: absolute;
