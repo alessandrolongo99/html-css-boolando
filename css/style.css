@@ -11,10 +11,13 @@
     display: flex;
 }
 
+/* header */
 header{
     background-color: #FF6900;
     box-shadow: 0 1px 2px black;
     position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
 .header{
@@ -26,8 +29,43 @@ header{
 .logo{
     height: 50px;
     padding: 15px 0;
+    margin-top: 4px;
 }
 
 .category, .user{
-    line-height: 54px;
+    line-height: 58px;
+}
+
+.user a{
+    padding-left: 5px;
+}
+
+/* main */
+main{
+    padding: 100px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row{
+    justify-content: space-between;
+}
+
+.card{
+    width: 500px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.card img{
+    width: 100%;
+}
+
+.heart *{
+    color: black;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 10px;
+    background-color: white;
 }
