@@ -90,6 +90,10 @@ main{
     background-color: white;
 }
 
+.heart *:hover{ 
+    color: red;
+}
+
 .tag{
     position: absolute;
     top: 600px;
