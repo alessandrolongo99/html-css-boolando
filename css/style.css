@@ -43,6 +43,7 @@ header{
 /* main */
 main{
     padding: 100px 0;
+    padding-bottom: 0;
     width: 80%;
     margin: 0 auto;
 }
@@ -112,4 +113,41 @@ main{
 
 .before{
     text-decoration: line-through;
+}
+
+/* footer */
+footer{
+    background-color: #1A1A1A;
+}
+
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer.flex-container div{
+    padding: 10px 0;
+}
+
+.info div:first-child{
+    font-weight: bold;
+}
+
+.links a{
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.social div:first-child{
+    font-weight: bold;
+}
+
+.buttons{
+    text-align: right;
+}
+
+.buttons a{
+    padding-left: 5px;
+    font-size: 20px;
 }
