@@ -69,3 +69,47 @@ main{
     padding: 10px;
     background-color: white;
 }
+
+.tag{
+    position: absolute;
+    top: 600px;
+}
+
+.tag div{
+    display: inline-block;
+}
+
+.discount{
+    padding: 5px 10px;
+    background-color: red;
+}
+
+.sustainability{
+    padding: 5px 10px;
+    background-color: green;
+}
+
+.bot-card div{
+    color: black;
+}
+
+.brand{
+    font-size: 12px;
+}
+
+.description{
+    font-weight: bold;
+}
+
+.prices{
+    display: inline-block;
+    font-size: 14px;
+}
+
+.after.prices{
+    color: red;
+}
+
+.before{
+    text-decoration: line-through;
+}
